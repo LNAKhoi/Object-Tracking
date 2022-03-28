@@ -35,13 +35,13 @@ root.title("Object Detection")
 logoIcon=Image.open('odLogo.png')
 logoIcon=logoIcon.resize((250,150),Image.ANTIALIAS)
 logoIcon= ImageTk.PhotoImage(logoIcon)
-logoIcon_label= tk.Label(image=logoIcon)
+logoIcon_label= tk.Label(image=logoIcon,padx=10,pady=10)
 logoIcon_label.grid(column=1,row=1)
 
 # initialize Labels frame
 application_Title=tk.Label(root,text="Object Detection Application",font=Font(family="Poppins",size=20,weight="bold"),fg='lightblue').grid(row=0,column=1)
 
-description= tk.Label(root,text='Object Detection Project\nDeveloped by Lê Nguyễn Anh Khôi & Bùi Ngọc Chính\n19TGMT',font=Font(family="Poppins",size=8,weight="normal"),fg="grey").grid(row=2,column=1)
+description= tk.Label(root,text='Object Detection Project\nDeveloped by Lê Nguyễn Anh Khôi & Bùi Ngọc Chính\n19TGMT',font=Font(family="Poppins",size=8,weight="normal"),fg="grey",padx=10,pady=10).grid(row=2,column=1)
 
 # buttons
 
